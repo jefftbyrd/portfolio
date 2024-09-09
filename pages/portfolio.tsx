@@ -16,22 +16,47 @@ function Portfolio() {
             <h1 data-test-id="pageTitle" className="title">
               Portfolio
             </h1>
-            <p className="description">
-              Incididunt in cillum magna occaecat nisi qui in.
-            </p>
+            <p className="description">Here's some stuff I made!</p>
 
             <div className="portfolio-wrapper">
               <div className="portfolio-item">
-                <img src="/chitchat.png" className="portfolio-image" alt="" />
-
-                <h4 className="portfolio-name">Chat App Exploration</h4>
-                <div className="portfolio-category">Mobile Dev</div>
+                <img
+                  src="http://jefftbyrd.com/images/nighty-night.jpg"
+                  className="portfolio-image"
+                  alt=""
+                />
+                <h4 className="portfolio-name">Nighty Night</h4>
+                <div className="portfolio-category">Solo release</div>
               </div>
-              <div className="portfolio-item">
-                <img src="/kajian.jpg" className="portfolio-image" alt="" />
 
-                <h4 className="portfolio-name">kajian App</h4>
-                <div className="portfolio-category">Mobile Dev</div>
+              <div className="portfolio-item">
+                <img
+                  src="https://budokanboys.club/images/are-you-sick-cover.jpg"
+                  className="portfolio-image"
+                  alt=""
+                />
+                <h4 className="portfolio-name">Are You Sick?</h4>
+                <div className="portfolio-category">Budokan Boys</div>
+              </div>
+
+              <div className="portfolio-item">
+                <img
+                  src="https://jefftbyrd.com/images/lamb-alley.jpg"
+                  className="portfolio-image"
+                  alt=""
+                />
+                <h4 className="portfolio-name">Lamb Alley</h4>
+                <div className="portfolio-category">Solo Release</div>
+              </div>
+
+              <div className="portfolio-item">
+                <img
+                  src="https://jefftbyrd.com/images/sbuayd.jpg"
+                  className="portfolio-image"
+                  alt=""
+                />
+                <h4 className="portfolio-name">So Broken Up About You Dying</h4>
+                <div className="portfolio-category">Solo Release</div>
               </div>
             </div>
           </div>

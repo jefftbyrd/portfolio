@@ -15,20 +15,20 @@ function Home() {
         <div className="container">
           <div className="text-wrapper">
             <h1 data-test-id="pageTitle" className="title">
-              Halo, saya Lutfhi Ramadhan
+              Hey there,
+              <br />
+              I'm Jeff T Byrd!
             </h1>
-            <p className="description">
-              Saya seorang pekerja lepas pengembang web, fotograper, desainer
-              antarmuka pengguna, dan penulis.
-            </p>
+            <p className="description">Today is my first day at UpLeveled.</p>
 
             <Link href="/contact" className="cta">
-              Kontak Saya
+              Contact Jeff
             </Link>
           </div>
 
           <div className="image-wrapper">
-            <svg
+            <img src="jeff.jpg" />
+            {/* <svg
               width="426"
               height="543"
               viewBox="0 0 426 543"
@@ -111,7 +111,7 @@ function Home() {
                 rx="1"
                 fill="black"
               />
-            </svg>
+            </svg> */}
           </div>
         </div>
       </section>
